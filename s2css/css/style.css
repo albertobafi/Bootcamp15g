@@ -1,0 +1,18 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.section1 {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.section2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.section3 {
+    background-color: hsl(179, 100%, 13%)
+}
