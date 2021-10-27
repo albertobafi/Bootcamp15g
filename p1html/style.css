@@ -1,3 +1,4 @@
+
 body{
     background-image:url('../img/bg-intro-desktop.png');
     background-color:hsl(0, 100%, 74%)
@@ -67,7 +68,7 @@ h1{
 
 .form-wrapper{
     margin:20vh auto 0 auto;
-    width: 75%;
+    width: 100%;
 }
 
 #contact-form{
