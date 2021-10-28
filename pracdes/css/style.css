@@ -31,14 +31,31 @@ button{
     width: 60%;
 }
 
-.float{
-    float: right;
-}
-
 header{
     display: flex;
     flex-direction: row;
 
+}
+
+.padd{
+    width: 50%;
+}
+
+.padd1{
+    width: 50%;
+    position: relative;
+}
+
+.padd2{
+    position: absolute;
+    width: 100%;
+    right: 0;
+    top: 40px;
+}
+
+.padd3{
+    position: absolute;
+    width: 100%;
 }
 
 .pad{
