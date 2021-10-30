@@ -1,0 +1,6 @@
+header nav ul li{
+    color: red;
+    &:hover{
+        color: green;
+    }
+}

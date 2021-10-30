@@ -1,0 +1,8 @@
+header nav ul li {
+  color: red;
+}
+
+header nav ul li:hover {
+  color: green;
+}
+/*# sourceMappingURL=style.css.map */
