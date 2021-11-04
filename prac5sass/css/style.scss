@@ -1,0 +1,72 @@
+.container{
+    display:flex;
+    flex-direction: row;
+    border: 2px solid black;
+    height: 100%vh;
+    width: 100%vw;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+
+}
+
+
+@media only screen and (min-width: 768px)
+{
+    div{
+        border-radius: 100%;
+        background-color: red;
+    }
+}
+
+@media only screen and (min-width: 1366px)
+{
+    div{
+        width: 300px;
+        height: 100px;
+        background-color: blue;
+        border-radius: 0;
+    }
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    width: 100%;
+    padding: 2rem 2rem 2rem 2rem;
+}
+@media only screen and (min-width: 768px)
+{
+    section{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        
+    }
+}
+
+@media only screen and (min-width: 1366px)
+{
+    section{
+        flex-direction: row;
+        flex-wrap: wrap;
+        .img{
+            width: 15%;
+            height: auto;
+        }
+    }
+}
+
+.img{
+    width: 30%;
+    height: auto;
+    padding: 2rem;
+
+}
