@@ -12,3 +12,13 @@ let firstName
 console.log('nombre:', firstName)
 firstName = 'beto'
 console.log('nombre:', firstName)
+
+let lastName = ''
+console.log('apellido', lastName)
+lastName = 'lopez puertos'
+console.log('apellido', lastName)
+
+var number1 = 10
+var number2 = '10'
+
+console.log(number1)
