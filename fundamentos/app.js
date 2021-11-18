@@ -18,7 +18,20 @@ console.log('apellido', lastName)
 lastName = 'lopez puertos'
 console.log('apellido', lastName)
 
+let miName = 'alberto'
+console.log('Nombre: ', miName)
+let milastName = 'barragan'
+console.log('Apellido: ', milastName)
+let age1 = 28
+console.log('Edad: ', age1)
+let work = 'future fullstack dev'
+console.log('Trabajo: ', work)
+
 var number1 = 10
 var number2 = '10'
 
-console.log(number1)
+var no = null
+console.log(no)
+
+console.log(number1 == number2)// solo compara el valor
+console.log(number1 === number2)// solo compara el tipo de dato
